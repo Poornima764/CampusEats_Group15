@@ -27,6 +27,8 @@ The ratings are useful for the customers to judge the restaurants,their menu and
 • All ratings will be from 1 – 5 stars, with 1 representing terrible food/service and5representing great food/service. 
 
 • Customers will be able to view the average ratings of restaurants.
+# UseCase Ratings System:
+<img src="https://github.com/Poornima764/CampusEats_Group15/blob/main/Use-Case%20Ratings.jpg"/>
 
 ## Data Dictionary:
 Person: 
