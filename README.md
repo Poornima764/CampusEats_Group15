@@ -103,17 +103,17 @@ created below stored procedures
 * total_deliveries - To view no of deliveries by a paricular driver.
 * order_total - Function To calculate the price of an order when added menu items.
 ## Indexes
-Indexes for delivery table: PK index, fk_delivery_driver_id, fk_delivery_vehicle_id
-Indexes for driver table: PK index, fk_D_student_id.
-Indexes for faculty table: PK index, fk_F_person_id
-Indexes for location table:PK index, location_index_desc, idx_location_location_name.
-Indexes for Person cation table: PK index.
-Indexes for  restaurant table: PK index.
-Indexes for staff table: PK index, fk_S_person_id.
-Indexes for student table: PK index, fk_St_person_id
-Indexes for vehicle table: PK index.
-Indexes for order table: PK index, fk_O_person_id, fk_O_delivery_id,fk_O_location_id, fk_O_driver_id, fk_O_restaurant_id.
-Indexes for ratings table: PK index,fk_Rt_order_id.
-Indexes for driver_ratings table:PK index, fk_DR_rating_id
-Indexes for restaurant_ratings table:PK index, fk_RR_rating_id.
-Indexes For Menu table:PK index, fk_menu_idx.
+* Indexes for delivery table: PK index, fk_delivery_driver_id, fk_delivery_vehicle_id
+* Indexes for driver table: PK index, fk_D_student_id.
+* Indexes for faculty table: PK index, fk_F_person_id
+* Indexes for location table:PK index, location_index_desc, idx_location_location_name.
+* Indexes for Person cation table: PK index.
+* Indexes for  restaurant table: PK index.
+* Indexes for staff table: PK index, fk_S_person_id.
+* Indexes for student table: PK index, fk_St_person_id
+* Indexes for vehicle table: PK index.
+* Indexes for order table: PK index, fk_O_person_id, fk_O_delivery_id,fk_O_location_id, fk_O_driver_id, fk_O_restaurant_id.
+* Indexes for ratings table: PK index,fk_Rt_order_id.
+* Indexes for driver_ratings table:PK index, fk_DR_rating_id
+* Indexes for restaurant_ratings table:PK index, fk_RR_rating_id.
+* Indexes For Menu table:PK index, fk_menu_idx.
